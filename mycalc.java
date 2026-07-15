@@ -8,12 +8,16 @@ public class mycalc {
                 int a = sc.nextInt();
                 int b = sc.nextInt();
 
-                System.out.println("Enter the operation + or - ");
+                System.out.println("Enter the operation + or - or / or * ");
                 char op = sc.nextLine().charAt(0);
 
                 if(op=='+')
                         System.out.println("Answer : " + (a+b));
-                else
+                else if(op=='-')
                         System.out.println("Answer : " + (a-b));
+                else if(op=='*')
+                        System.out.println("Answer : " + (a*b));
+                else if(op=='/')
+                        System.out.println("Answer : " + (a/b));
         }
 }s
